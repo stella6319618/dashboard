@@ -1,8 +1,8 @@
 {
-  "dsahboard": [
-  {
-    "id": 1,
-    "widgets": [
+  "dashboard": [
+    { 
+      "id": 1,
+      "widgets": [
       {
         "id": 1,
         "name": "LAND MANAGEMENT",
@@ -52,92 +52,11 @@
         "y": 6,
         "x": 3,
         "color":"purple"
-      }
-    ]
-  },
-
-  {
-    "id": 89,
-    "widgets": [
-      {
-        "id": 1,
-        "name": "LAND MANAGEMENT",
-        "component": "landManagement",
-        "cols": 3,
-        "rows": 4,
-        "y": 0,
-        "x": 0,
-        "color":"blue"
-      },
-      {
-        "id": 2,
-        "name": "UNREAD NOTIFICATIONS",
-        "component": "unreadNotifications",
-        "cols": 3,
-        "rows": 1,
-        "y": 0,
-        "x": 3,
-        "color":"green"
-      }
-    ]
-  },
-
-  {
-    "id": 88,
-    "widgets": [
-      {
-        "id": 1,
-        "name": "LAND MANAGEMENT",
-        "component": "landManagement",
-        "cols": 3,
-        "rows": 4,
-        "y": 0,
-        "x": 0,
-        "color":"blue"
-      },
-      {
-        "id": 2,
-        "name": "UNREAD NOTIFICATIONS",
-        "component": "unreadNotifications",
-        "cols": 3,
-        "rows": 1,
-        "y": 0,
-        "x": 3,
-        "color":"green"
-      },
-      {
-        "id": 3,
-        "name": "CONTRACT INDICES",
-        "component": "contractIndices",
-        "cols": 3,
-        "rows": 2,
-        "y": 2,
-        "x": 3,
-        "color":"red"
-      },
-      {
-        "id": 4,
-        "name": "STRUCTURE MANAGEMENT",
-        "component": "structureManagement",
-        "cols": 3,
-        "rows": 2,
-        "y": 4,
-        "x": 3,
-        "color":"green"
-      },
-      {
-        "id": 3,
-        "name": "COMPETITOR MANAGEMENT",
-        "component": "competitorManagement",
-        "cols": 3,
-        "rows": 2,
-        "y": 6,
-        "x": 3,
-        "color":"purple"
-      }
-    ]
-  }
-],
+      }]
+    },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
