@@ -54,9 +54,31 @@
         "color":"purple"
       }]
     },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+{
+    "id": 89,
+    "widgets": [
+      {
+        "id": 1,
+        "name": "LAND MANAGEMENT",
+        "component": "landManagement",
+        "cols": 3,
+        "rows": 4,
+        "y": 0,
+        "x": 0,
+        "color":"blue"
+      },
+      {
+        "id": 2,
+        "name": "UNREAD NOTIFICATIONS",
+        "component": "unreadNotifications",
+        "cols": 3,
+        "rows": 1,
+        "y": 0,
+        "x": 3,
+        "color":"green"
+      }
+    ]
+  }],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
